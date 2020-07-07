@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+section{
+    background-color: darkgray;
+    margin: 20px;
+    width: auto;
+    border: 2px solid green;
+}
+section div{
+    background-color: darkkhaki;
+    text-emphasis-color: red;
+}
+section p{
+    text-decoration-color: black;
+    border: 2px solid green;
+
+}
+    @media (min-width:1200px)
+    {
+       section{
+       width :8.33%;
+
+       }      
+        
+    }
+    @media (min-width:600px)  and (max-width:1199px)
+    {
+       section{
+       width :33.33%;
+
+       }      
+        
+    }
